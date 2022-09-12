@@ -1,0 +1,344 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    padding-left: 120px;
+    background-color: #fff;
+    position: fixed;
+    z-index:1;
+}
+.navbar-icon{
+    padding-top: 5px;
+    width: 130px;
+    height: 25px;
+}
+.navbar-items-left{
+    display: flex;
+    margin: 10px;
+    margin-left: 25px;
+}
+.navbar-text{
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 5px;
+    color: #666666;
+}
+.navbar-text:hover{
+    color: #363434;
+    cursor: pointer;
+}
+
+.navbar-items-right{
+    display: flex;
+    margin: 10px;
+    margin-left: 25px;
+}
+.navbar-text-right{
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 5px;
+    margin-top: 5px;
+    color: #666666;
+}
+.navbar-text-right:hover{
+    color: #363434;
+    cursor: pointer;
+}
+.navbar-items-icons{
+    padding-top: 13px;
+    color: #666666;
+}
+.navbar-right-icon{
+    font-size: 20px;
+    margin-left: 15px;
+    color: #666666;
+}
+.navbar-right-icon:hover{
+    cursor: pointer;
+}
+.vm-explore{
+    background-image: url(Images/vmware-explore-wmfg-2560x580-d@2x.jpg);
+    width: auto;
+    height: 580px;
+    position:relative ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.vm-explore-box{
+    width: 550px;
+    height:580px;
+    margin-left: 128px;
+}
+.vm-explore-box-inner{
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+    width: 550px;
+    height:auto;
+}
+.nv-vm-explore{
+    width: 550px;
+    height: 150px;
+
+}
+.vm-logo{
+    height: 35px;
+}
+.nv-vm-explore-title{
+    font-size: 46px;
+    line-height: 60px;
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+.nv-vm-explore-text{
+    font-size: 22px;
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    line-height: 38.5px;
+    color: #ffffff;
+}
+.button-class{
+    width: 115px;
+    height: 40px;
+    background-color: #88cc11;
+    color: white;
+    border: none;
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 16px;
+}
+.button-class:hover{
+    background-color: #94ea00;
+    cursor: pointer;
+}
+.gtc-keynote{
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-top: 15px;
+        background-image: url(Images/founder-resized.jpg);
+    width: auto;
+    height: 300px;
+    position:relative ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #88cc11;
+    display: flex;
+}
+.gtc-spacing{
+    width: 960px;
+    height: 300px;
+}
+.gtc-keynote-title{
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: white;
+}
+.gtc-news-main{
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 45px;
+}
+.gtc-keynote-subtitle{
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: white;
+}
+.gtc-keynote-news{
+    margin-top: 15px;
+}
+.gtc-keynote-notes{
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    line-height: 25.005px;
+}
+.gtc-button-class{
+    margin-top: 15px;
+    width: 155px;
+    height: 45px;
+    background-color: #88cc11;
+    color: white;
+    border: none;
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 16px;
+}
+.gtc-button-class:hover{
+    cursor: pointer;
+    background-color: #94ea00;
+}
+.nvidia-main-root{
+    background-color: #eeeeee;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 1520px;
+    height: 2030px;
+  }
+.nvidia-shop-main{  
+    margin-bottom: 60px;
+    width: 1280px;
+    margin-left: 130px;
+}
+.nvidia-card{
+    width: 295px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #ffffff
+}
+.nvidia-card:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container {
+    padding: 2px 16px;
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+  }
+  .nvidia-shop-title{
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+  .nvidia-shop-card-main{
+    display: flex;
+    justify-content: space-between;
+  }
+  .nvidia-text-card-head{
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+  .nvidia-text-card{
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  .latest-news-spacing{
+    margin-top: 60px;
+  }
+  .nvidia-footer-root{
+    width: 100%;
+    height: 600px;
+    background-color: #000000;
+  }
+  .footer-main{
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 380px;
+    margin-left: 110px;
+    padding-top: 60px;
+  }
+.footer-list-1{
+    list-style: none;
+}
+.ul-list-class{
+    list-style-type: none   ;
+}
+.footer-content-part{
+    width: 420px;
+}
+.ul-list-title{
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.ul-list-text{
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top: 15px;
+    color: #88cc11;
+}
+.ul-list-text:hover{
+    cursor: pointer;
+}
+.footer-main-1{
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 75px;
+    margin-left: 110px;
+    /* background-color: #ffffff; */
+}
+.sign-up{
+color: #000000;
+}
+.sign-text-1{
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+.sign-text{
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+.social-media{
+    display: flex;
+}
+.socal-media-logo{
+    width:40px;
+    height:40px;
+}
+.sign-text-social-1{
+    color: #666666;
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 200px;
+}
+.sign-text-social{
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    margin-right: 20px;
+    color: #666666;
+}
+.sign-text-social:hover{
+    color: #363434;
+    cursor: pointer;
+}
+.footer-footer{
+    background-color: #fff;
+    padding-left: 130px;
+    width: 100%;
+    height: 150px;
+}
+.footer-terms{
+    padding-top: 25px;
+    display: flex;
+
+}
+.footer-logo-terms{
+    width: 125px;
+    height: 25px;
+}
+.country{
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-right: 20px;
+    color: rgb(156, 148, 148);
+}
+.footer-legal-info{
+    margin-top: 20px;
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-right: 20px;
+    color: #666666;
+}
+.copyright{
+    margin-top: 20px;
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666666;
+}
